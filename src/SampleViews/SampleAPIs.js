@@ -51,10 +51,17 @@ export default class Sample1 extends Component {
             </Text>
           </View>
         </TouchableWithoutFeedback>
-        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample6')} key={'6'}>
+        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample12')} key={'6'}>
           <View>
             <Text >
-              Animated Sample6 - 일정 간격주기 애니메이션
+              Geolocation API를 이용해서 사용자의 현재 위치 확인하기
+            </Text>
+          </View>
+        </TouchableWithoutFeedback>
+        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample13')} key={'6'}>
+          <View>
+            <Text >
+              Keyboard API를 이용해서 네이티브 키보드의 위치와 기능 조정하기
             </Text>
           </View>
         </TouchableWithoutFeedback>
