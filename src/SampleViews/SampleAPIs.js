@@ -44,10 +44,10 @@ export default class Sample1 extends Component {
             </Text>
           </View>
         </TouchableWithoutFeedback>
-        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample5')} key={'5'}>
+        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample11')} key={'5'}>
           <View>
             <Text >
-              Animated Sample5 - 순차처리 애니메이션
+              Dimensions API 를 이용해서 디바이스의 화면 정보 확인하기
             </Text>
           </View>
         </TouchableWithoutFeedback>
