@@ -37,10 +37,10 @@ export default class Sample1 extends Component {
             </Text>
           </View>
         </TouchableWithoutFeedback>
-        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample4')} key={'4'}>
+        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample10')} key={'4'}>
           <View>
             <Text >
-              Animated Sample4 - 병렬처리 애니메이션
+              Clipboard API를 이용해서 텍스트를 사용자 클립보드에 복사하기
             </Text>
           </View>
         </TouchableWithoutFeedback>
