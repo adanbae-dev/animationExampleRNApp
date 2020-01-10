@@ -30,10 +30,10 @@ export default class Sample1 extends Component {
             </Text>
           </View>
         </TouchableWithoutFeedback>
-        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample3')} key={'3'}>
+        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample9')} key={'3'}>
           <View>
             <Text >
-              Animated Sample3 - 사용자 정의 애니메이션
+              AsyncStorage API를 이용해서 데이터 유지하기
             </Text>
           </View>
         </TouchableWithoutFeedback>
