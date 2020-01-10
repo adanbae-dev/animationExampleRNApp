@@ -13,6 +13,7 @@ import Sample10 from './SampleViews/Sample10'
 import Sample11 from './SampleViews/Sample11'
 import Sample12 from './SampleViews/Sample12'
 import Sample13 from './SampleViews/Sample13'
+import Sample14 from './SampleViews/Sample14'
 
 import { createAppContainer } from 'react-navigation'
 import { createStackNavigator } from 'react-navigation-stack'
@@ -45,6 +46,7 @@ const Samples2Nav = createStackNavigator ({
   Sample11 : {screen : Sample11},
   Sample12 : {screen : Sample12},
   Sample13 : {screen : Sample13},
+  Sample14 : {screen : Sample14},
 },
 {
 navigationOptions:{

@@ -65,6 +65,13 @@ export default class Sample1 extends Component {
             </Text>
           </View>
         </TouchableWithoutFeedback>
+        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample14')} key={'6'}>
+          <View>
+            <Text >
+              NetInfo API 를 이용해서 사용자의 온라인 연결 상태 확인하기
+            </Text>
+          </View>
+        </TouchableWithoutFeedback>
       </View>
     )
   }
