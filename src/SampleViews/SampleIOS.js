@@ -23,10 +23,10 @@ export default class Sample1 extends Component {
             </Text>
           </View>
         </TouchableWithoutFeedback>
-        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample8')} key={'12'}>
+        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample22')} key={'12'}>
           <View>
             <Text >
-              AppState API를 이용해서 현재 앱 상태 확인하기
+              PickerIOS로 데이터 목록 처리하기
             </Text>
           </View>
         </TouchableWithoutFeedback>
