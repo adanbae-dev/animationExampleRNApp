@@ -16,6 +16,7 @@ import Sample12 from './SampleViews/Sample12'
 import Sample13 from './SampleViews/Sample13'
 import Sample14 from './SampleViews/Sample14'
 import Sample15 from './SampleViews/Sample15'
+import Sample21 from './SampleViews/Sample21'
 
 import { createAppContainer } from 'react-navigation'
 import { createStackNavigator } from 'react-navigation-stack'
@@ -62,6 +63,7 @@ navigationOptions:{
 
 const Samples3Nav = createStackNavigator ({
   SampleIOS : {screen : SampleIOS},
+  Sample21 : {screen : Sample21},
 },
 {
 navigationOptions:{
@@ -75,7 +77,7 @@ navigationOptions:{
 const AppTabs = createBottomTabNavigator({
   Animated: {screen: SamplesNav},
   APIs: {screen: Samples2Nav},
-  IOS : {screen: SampleIOS}
+  IOS : {screen: Samples3Nav}
 })
 
 // const DrawNavi = create

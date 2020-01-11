@@ -16,10 +16,10 @@ export default class Sample1 extends Component {
         <Text>
           Sample APIs
         </Text>
-        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample7')} key={'11'}>
+        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample21')} key={'21'}>
           <View>
             <Text >
-              Alert API를 이용해서 크로스 플랫폼용 알림 만들기
+              DatePicker를 이용 날짜와 시간 화면 표시 및 업데이트
             </Text>
           </View>
         </TouchableWithoutFeedback>
