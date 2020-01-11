@@ -1,5 +1,6 @@
 import SampleMain from './SampleViews/SampleMain'
 import SampleAPIs from './SampleViews/SampleAPIs'
+import SampleIOS from './SampleViews/SampleIOS'
 import Sample1 from './SampleViews/Sample1'
 import Sample2 from './SampleViews/Sample2'
 import Sample3 from './SampleViews/Sample3'
@@ -14,6 +15,7 @@ import Sample11 from './SampleViews/Sample11'
 import Sample12 from './SampleViews/Sample12'
 import Sample13 from './SampleViews/Sample13'
 import Sample14 from './SampleViews/Sample14'
+import Sample15 from './SampleViews/Sample15'
 
 import { createAppContainer } from 'react-navigation'
 import { createStackNavigator } from 'react-navigation-stack'
@@ -47,6 +49,7 @@ const Samples2Nav = createStackNavigator ({
   Sample12 : {screen : Sample12},
   Sample13 : {screen : Sample13},
   Sample14 : {screen : Sample14},
+  Sample15 : {screen : Sample15},
 },
 {
 navigationOptions:{
@@ -56,9 +59,23 @@ navigationOptions:{
   headerTintColor: '#fff'
 }
 })
+
+const Samples3Nav = createStackNavigator ({
+  SampleIOS : {screen : SampleIOS},
+},
+{
+navigationOptions:{
+  headerStyle:{
+      backgroundColor : colors.primary
+  },
+  headerTintColor: '#fff'
+}
+})
+
 const AppTabs = createBottomTabNavigator({
   Animated: {screen: SamplesNav},
-  APIs: {screen: Samples2Nav}
+  APIs: {screen: Samples2Nav},
+  IOS : {screen: SampleIOS}
 })
 
 // const DrawNavi = create
