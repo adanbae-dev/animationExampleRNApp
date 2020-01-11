@@ -23,17 +23,17 @@ export default class Sample1 extends Component {
             </Text>
           </View>
         </TouchableWithoutFeedback>
-        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample22')} key={'12'}>
+        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample22')} key={'22'}>
           <View>
             <Text >
               PickerIOS로 데이터 목록 처리하기
             </Text>
           </View>
         </TouchableWithoutFeedback>
-        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample9')} key={'13'}>
+        <TouchableWithoutFeedback onPress ={()=> this.navigate('Sample23')} key={'23'}>
           <View>
             <Text >
-              AsyncStorage API를 이용해서 데이터 유지하기
+              ProgressViewIOS 로 로딩 인디케이터 표시하기
             </Text>
           </View>
         </TouchableWithoutFeedback>
